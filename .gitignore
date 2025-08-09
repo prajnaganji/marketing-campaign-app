@@ -1,0 +1,25 @@
+
+# Environments
+.venv/
+env/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Data
+data/*
+!data/.gitkeep
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.secrets.toml
+.streamlit/secrets.toml

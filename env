@@ -1,0 +1,3 @@
+DATA_DIR=data
+DEFAULT_INPUT=Advertisment-checkpoint.csv
+DEFAULT_CLEANED=cleaned_marketing_campaign_dataset.csv
