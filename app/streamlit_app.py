@@ -1,3 +1,6 @@
+import sys
+from pathlib import Path
+sys.path.append(str(Path(__file__).resolve().parents[1]))
 
 import streamlit as st
 from pathlib import Path
@@ -9,8 +12,8 @@ from src.cleaning import standardize_columns, fill_missing
 from src.features import compute_roi
 from src.viz import roi_histogram
 
-st.set_page_config(page_title="Marketing Campaign Analysis", page_icon="📊", layout="wide")
-st.title("📊 Marketing Campaign Analysis")
+st.set_page_config(page_title="Marketing Campaign Analysis", page_icon="", layout="wide")
+st.title("Marketing Campaign Analysis")
 
 # Upload or use default
 uploaded = st.file_uploader("Upload a CSV", type=["csv"])
